@@ -15,8 +15,8 @@ If the build still fails a clean/rebuild should fix things
 To make the generated project .Net Std edit the ProjectTemplate.csproj as follows:
 (a) <TargetFrameworkVersion>v$targetframeworkversion$</TargetFrameworkVersion> ==> <TargetFramework>netstandard2.0</TargetFramework>
 (b) Add the attribute Sdk="Microsoft.NET.Sdk.Web" to the <Project> node (for Blazor project templates at least)
-(c) We need to list all the .cs / .css / .json / .html / etc files we added to our project into our ProjectTemplate.csproj file. We can do this by copying values from BlazorMinimalProjectTemplate.csproj into ProjectTemplate.csproj BUT as .Net core project files don't list every file explicity, but detect all files on disc, we don't need to make the files for Compile per se.
-BlazorMinimalProjectTemplate.vstemplate is what ultimately generates a project, so add all the .cs / .css / .json / .html / etc files here too
+(c) We need to list all the .cs / .css / .json / .html / etc files we added to our project into our ProjectTemplate.csproj file. We can do this by copying values from BlazorMinimalProjectTemplate.csproj into ProjectTemplate.csproj (we have to do this even though .Net core project files are tiny and don't list every file explicity)
+BlazorMinimalProjectTemplate.vstemplate is what ultimately generates a project, so we do need to define all the .cs / .css / .json / .html / etc files here, so that they end up on disc in the templated project.
 
 
 
