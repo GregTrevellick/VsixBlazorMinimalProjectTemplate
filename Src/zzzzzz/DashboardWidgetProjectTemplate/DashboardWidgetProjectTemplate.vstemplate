@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>VSTS Dashboard Widget</Name>
+    <Description>A project template for creating VSTS dashboard widgets</Description>
+    <Icon>WidgetTemplate.ico</Icon>
+	<ProjectType>CSharp</ProjectType>
+	<RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>078b17e8-e9d3-49d3-a6d8-12a6a7410411</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>VstsDashboardWidget</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+		<ProjectItem TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+		<ProjectItem>app\Content\site.css</ProjectItem>
+		<ProjectItem>app\Images\CatalogIcon.png</ProjectItem>		
+		<ProjectItem>app\Images\DefaultIcon.png</ProjectItem>
+		<ProjectItem>app\Scripts\SDK\VSS.SDK.js</ProjectItem>
+		<ProjectItem>app\Scripts\SDK\VSS.SDK.min.js</ProjectItem>		
+		<ProjectItem>app\Scripts\app.js</ProjectItem>
+		<ProjectItem OpenInWebBrowser="true">app\dashboard-widget.html</ProjectItem>
+		<ProjectItem>artefacts\Licence.md</ProjectItem>
+		<ProjectItem>artefacts\Overview.md</ProjectItem>
+		<ProjectItem>artefacts\Screenshot.png</ProjectItem>
+		<ProjectItem>vss-extension.json</ProjectItem>
+	</Project>
+  </TemplateContent>
+</VSTemplate>

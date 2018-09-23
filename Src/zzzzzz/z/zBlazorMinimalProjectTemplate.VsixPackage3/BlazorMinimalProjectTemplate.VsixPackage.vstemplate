@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>BlazorMinimalProjectTemplate.VsixPackage</Name>
+    <Description>Blazor Minima lProjectTemplate.VsixPackage</Description>
+    <Icon>BlazorMinimalProjectTemplate.VsixPackage.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>0d1dcef0-a9dc-4986-a970-a2d3a3edf434</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>BlazorMinimalProject1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+	  <LocationField>Enabled</LocationField>
+	  <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true" >
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+		<Folder Name="Properties" TargetFolderName="Properties">
+			<ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+		</Folder>
+		<Folder Name="wwwroot" TargetFolderName="wwwroot">
+			<ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+		</Folder>
+
+
+		<ProjectItem ReplaceParameters="true" TargetFileName="global.json">global.json</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="IndexBase.cs">IndexBase.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="MyApp.cshtml">MyApp.cshtml</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+	</Project>
+  </TemplateContent>
+
+
+
+	
+</VSTemplate>

@@ -1,0 +1,228 @@
+/*
+
+ ALL COMMENTS BELOW ARE FROM THE TEMPLATE AUTHOR, NOT MICROSOFT.
+
+ WHILST COMMENTS HAVE BEEN TAKEN FROM THE OFFICIAL MANIFEST REFERENCE THEY CANNOT BE GAURANTEED TO BE UP-TO-DATE WITH THE OFFICIAL MICROSOFT DOCUMENTATION.
+
+    Manifest reference: https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts
+
+    Additional help: https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts
+
+ Hint: to easily remove all comments within this file using the Visual Studio IDE install this extension: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover
+
+*/
+
+
+{
+
+    // Required attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#required-attributes
+
+    // The manifest version does not change
+    "manifestVersion": 1,
+
+    // Unique among extensions from the same publisher (may only include letters, numbers, underscores, and dashes)
+    "id": "YourWidgetId",
+
+    // The version number of your extension, which you increment as necessary with each release
+    "version": "0.0.1",
+
+    // The publicly visible name
+    "name": "Your Widget Name",
+
+    // Change this to your publisher name
+    "publisher": "YourWidgetPublisher",
+
+    // Targets - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#installation-targets
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+
+    // Discovery attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#discovery-attributes
+
+    // A short headline description that appears at the top of the extension detail page in the VS marketplace website
+    "description": "Your widget description (brief free-text description)",
+
+    // Icons - 128px x 128px of type BMP, GIF, EXIF, JPG, PNG and TIFF
+    "icons": {
+        "default": "app/Images/DefaultIcon.png"
+    },
+
+    // Categories are NOT free text - see the manifest reference (e.g. Build and release, Collaborate, Code, Developer samples, Plan and track, Integrate, and Test)
+    "categories": [
+        "Developer samples"
+    ],
+
+    // Tags ARE free text - see the manifest reference
+    "tags": [
+        "YourWidgetTag1",
+        "YourWidgetTag2",
+        "YourWidgetTag3"
+    ],
+
+    "links": {
+
+        // Edit for your desired home page
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=YourWidgetPublisher.YourWidgetId-UniqueAmongExtensionsFromSamePublisher"
+        },
+
+        // Support link appears in the bottom right hand side of the extension detail page in the VS marketplace website
+        "support": {
+            "uri": "https://www.fabrikam-fiber-inc.com/support"
+        },
+
+        // Get started link appears in the bottom right hand side of the extension detail page in the VS marketplace website
+        "getstarted": {
+            "uri": "https://www.fabrikam-fiber-inc.com/help/getstarted"
+        },
+
+        // Learn link appears in the bottom right hand side of the extension detail page in the VS marketplace website
+        "learn": {
+            "uri": "https://www.fabrikam-fiber-inc.com/features"
+        },
+
+        // Edit for your repository as desired
+        "repository": {
+            "uri": "https://github.com/fabrikam-fiber-inc/tools"
+        },
+
+        // The issues link appears in the Q&A tab of the extension detail page in the VS marketplace website.
+        "issues": {
+            "uri": "https://github.com/fabrikam-fiber-inc/tools/issues"
+        }
+    },
+
+    // Screen shots - 1366px x 768px. A partial view of this image appears in the right hand side of the extension detail page in the VS marketplace website. When clicked it opens full size.
+    "screenshots": [
+        {
+            "path": "artefacts/Screenshot.png"
+        }
+    ],
+
+    // Branding is for styling the header of the extension detail page in the VS marketplace website.
+    "branding": {
+        "color": "rgb(1, 122, 215)",
+        "theme": "dark"
+    },
+
+    // Uncomment the repository element if you wish
+    //"repository": {
+    //    "type": "git",
+    //    "uri": "https://github.com/fabrikam-fiber-inc/tools"
+    //},
+
+    // Contributions - "https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#contributions
+    "contributions": [
+        {
+            // Rename id as you wish
+            "id": "Your_VSS.register_JavascriptFunctionCallParamaterValue",
+            "type": "ms.vss-dashboards-web.widget",
+            "targets": [
+                "ms.vss-dashboards-web.widget-catalog"
+            ],
+
+            // Properties - https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts#contributions
+            "properties": {
+
+                // The title name that appears in the right hand side of screen when adding this extension to a dashboard and in the widget header (grey font) when loading the dashboard page itself
+                "name": "Your Widget Name (Contributions)",
+
+                // The description that appears in the right hand side of screen (underneath the name above) when adding this extension to a dashboard
+                "description": "Your brief free-text widget contributions properties description",
+
+                // Catalog icon - 98px x 98px
+                "catalogIconUrl:": "app/Images/CatalogIcon.png",
+
+                // Preview image that appears in list of widgets when adding a widget to a dashboard
+                //gregt 330px x 160px (used for TFS 2015 Update 3)
+                "previewImageUrl": "app/Images/DefaultIcon.png",
+
+                // Rename as you wish
+                "uri": "app/dashboard-widget.html",
+
+                // Sizes supported by your widget (first size in the array is the default). One row/column corresponds to 160px. The maximum supported size is 4x4. See the contributions properties url above.
+                "supportedSizes": [
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 4,
+                        "columnSpan": 4
+                    }
+                ],
+
+                // Configurable options - https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts#step-8-configure-more-optional
+
+                // Scopes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#scopes
+                "supportedScopes": [ "project_team" ]
+            }
+        }
+    ],
+
+    // Files - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#files
+    "files": [
+        {
+            "path": "app/dashboard-widget.html",
+            "addressable": true
+        },
+        {
+            "path": "app/Content",
+            "addressable": true
+        },
+        {
+            "path": "app/Images",
+            "addressable": true
+        },
+        {
+            "path": "app/Scripts",
+            "addressable": true
+        }
+    ],
+
+    "content": {
+
+        // This markdown file contains a full and more detailed description of your extension and appears in the lower half of the extension detail page in the VS marketplace website.
+        "details": {
+            "path": "artefacts/Overview.md"
+        },
+
+        // This markdown file contains your software licence and appears as a link in the right hand side of the extension detail page in the VS marketplace website.
+        "license": {
+            "path": "artefacts/Licence.md"
+        }
+    }
+
+    // Uncomment the galleryFlags element if you wish - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#public-flag
+    //"galleryFlags": [
+    //    "Xxxxx"
+    //]
+
+    // Uncomment the badges element if you wish - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#supported-badge-services
+    //"badges": [
+    //    {
+    //        "href": "https://travis.ci/fabrikam-fiber-inc/myextension",
+    //        "uri": "https://travis.ci/fabrikam-fiber-inc/myextension.svg?branch=master",
+    //        "description": "TravisCI build for the project"
+    //    },
+    //    {
+    //        "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
+    //        "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
+    //        "description": "AppVeyor build for the project"
+    //    }
+    //]
+}

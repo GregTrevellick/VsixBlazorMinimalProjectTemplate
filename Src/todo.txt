@@ -1,0 +1,56 @@
+1) Create a "HelloWorld" sln/proj (this can/should be 4.7.1 .Net Std)
+
+
+
+2) Create a "XxxxProjectTemplate" sln
+
+
+
+3) Add new project > "Extensibility" > "C# Project Template" > "BlazorMinimalProjectTemplate" project (a clone of a HelloWorld project) (this can/will be a 4.7.1 CLASS library but can ultimately generate a .Net Std CONSOLE APP project for us - just depends how we populate ProjectTemplate.csproj)
+This will contain an assemmblyinfo.cs file full of $projectname$ variables + ProjectTemplate.csproj file + a .vstemplate file, all at root of project
+It will also contain a Class1.cs file, which we will replace with files from our HelloWorld sln/proj
+Add any .cs / .css / .json / .html / etc files from our HelloWorld sln/proj
+Change the namespace in any .cs files added to "namespace $safeprojectname$" & change each .cs file's Build Action to "None" (otherwise the csc tries to compile $safeprojectname$ which results in an error)
+If the build still fails a clean/rebuild should fix things
+Edit the ProjectTemplate.csproj as follows:
+
+
+
+4) Sln > Add new project > "Extensibility" > "VSIX Project" > "BlazorMinimalProjectTemplate.VsixPackage" (this can/will be 4.7.1)
+Remove the index.html & stylesheet.css
+Open the file source.extension.vsixmanifest > In the Assets tab, select New. In the Add New Asset window, for the Type field, select Microsoft.VisualStudio.ProjectTemplate. In the Source field, select A project in current solution. In the Project field, select BlazorMinimalProjectTemplate. Then click OK.
+Add a licence file (as a link item is best)
+Add png images in a \Resources folder
+
+
+
+5) Set the BlazorMinimalProjectTemplate.VsixPackage as start up project & hit F5 - the new template should appear in the experimental instance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\gtrev\Documents\Visual Studio 2017\My Exported Templates\BlazorMinimalProjectTemplate2
+
+
+
+
