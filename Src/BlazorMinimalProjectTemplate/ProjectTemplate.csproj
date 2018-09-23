@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+		 Sdk="Microsoft.NET.Sdk.Web" >
 	<PropertyGroup>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,8 +11,11 @@
 		<AppDesignerFolder>Properties</AppDesignerFolder>
 		<RootNamespace>$safeprojectname$</RootNamespace>
 		<AssemblyName>$safeprojectname$</AssemblyName>
-		<TargetFrameworkVersion>v$targetframeworkversion$</TargetFrameworkVersion>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<FileAlignment>512</FileAlignment>
+		<RunCommand>dotnet</RunCommand>
+		<RunArguments>blazor serve</RunArguments>
+		<LangVersion>7.3</LangVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<DebugSymbols>true</DebugSymbols>
@@ -32,22 +36,32 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<Reference Include="System"/>
-		$if$ ($targetframeworkversion$ >= 3.5)
 		<Reference Include="System.Core"/>
 		<Reference Include="System.Xml.Linq"/>
 		<Reference Include="System.Data.DataSetExtensions"/>
-		$endif$
-		$if$ ($targetframeworkversion$ >= 4.0)
 		<Reference Include="Microsoft.CSharp"/>
- 		$endif$
 		<Reference Include="System.Data"/>
 		<Reference Include="System.Xml"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="Class1.cs" />
-
-		<Compile Include="Properties\AssemblyInfo.cs" />
+		<PackageReference Include="Microsoft.AspNetCore.Blazor.Browser" Version="0.5.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="0.5.1" />
+		<DotNetCliToolReference Include="Microsoft.AspNetCore.Blazor.Cli" Version="0.5.1" />
 	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="Properties\AssemblyInfo.cs" />
+		<Content Include="global.json" />
+		<Content Include="Index.cshtml" />
+		<Content Include="index.html" />
+		<Content Include="MyApp.cshtml" />
+		<Content Include="wwwroot\index.html" />
+		<None Include="IndexBase.cs" />
+		<None Include="Program.cs" />
+		<None Include="Startup.cs" />
+	</ItemGroup>
+
+
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -14,8 +14,15 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
-    </Project>
+		<ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true">IndexBase.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true">Startup.cs</ProjectItem>
+		<ProjectItem TargetFileName="wwwroot\index.html">wwwroot\index.html</ProjectItem>
+		<ProjectItem>global.json</ProjectItem>
+		<ProjectItem>Index.cshtml</ProjectItem>
+		<ProjectItem>index.html</ProjectItem>
+		<ProjectItem>MyApp.cshtml</ProjectItem>
+	</Project>
   </TemplateContent>
 </VSTemplate>

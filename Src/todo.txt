@@ -12,7 +12,11 @@ It will also contain a Class1.cs file, which we will replace with files from our
 Add any .cs / .css / .json / .html / etc files from our HelloWorld sln/proj
 Change the namespace in any .cs files added to "namespace $safeprojectname$" & change each .cs file's Build Action to "None" (otherwise the csc tries to compile $safeprojectname$ which results in an error)
 If the build still fails a clean/rebuild should fix things
-Edit the ProjectTemplate.csproj as follows:
+To make the generated project .Net Std edit the ProjectTemplate.csproj as follows:
+(a) <TargetFrameworkVersion>v$targetframeworkversion$</TargetFrameworkVersion> ==> <TargetFramework>netstandard2.0</TargetFramework>
+(b) Add the attribute Sdk="Microsoft.NET.Sdk.Web" to the <Project> node
+(c) We need to list all the .cs / .css / .json / .html / etc files we added to our project into our ProjectTemplate.csproj file. We can do this by copying values from BlazorMinimalProjectTemplate.csproj into ProjectTemplate.csproj BUT as .Net core project files don't list every file explicity, but detect all files on disc, we don't need to make the files for Compile per se.
+BlazorMinimalProjectTemplate.vstemplate is what ultimately generates a project, so add all the .cs / .css / .json / .html / etc files here too
 
 
 
