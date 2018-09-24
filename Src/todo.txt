@@ -1,3 +1,11 @@
+remove choice of 4.6.1
+ico/logo
+
+
+
+
+
+
 1) Create a "HelloWorld" sln/proj (this can/should be 4.7.1 .Net Std)
 
 
@@ -48,12 +56,6 @@ Add png images in a \Resources folder
 
 
 
-
-
-
-
-
-C:\Users\gtrev\Documents\Visual Studio 2017\My Exported Templates\BlazorMinimalProjectTemplate2
 
 
 
