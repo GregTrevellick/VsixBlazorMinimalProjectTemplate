@@ -19,7 +19,6 @@
 		<Content Include="Index.cshtml" />
 		<Content Include="wwwroot\index.html" />
 		<Content Include="MyApp.cshtml" />
-		<!--<Content Include="index.html" />-->
 		<None Include="IndexBase.cs" />
 		<None Include="Program.cs" />
 		<None Include="Properties\launchSettings.json" />
