@@ -1,8 +1,9 @@
 remove choice of 4.6.1
-screen shots
+
+vsix screen shots
 vsix upload
-readme
-notes/"how to" stand alone deploy
+vsix readme
+vsix notes/"how to" stand alone deploy
 
 
 
