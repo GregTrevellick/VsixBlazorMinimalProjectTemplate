@@ -18,10 +18,10 @@
 		<ProjectItem ReplaceParameters="true">IndexBase.cs</ProjectItem>
 		<ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
 		<ProjectItem ReplaceParameters="true">Startup.cs</ProjectItem>
-		<ProjectItem TargetFileName="wwwroot\index.html">wwwroot\index.html</ProjectItem>
+		<ProjectItem TargetFileName="wwwroot\index.html">index.html</ProjectItem>
 		<ProjectItem>global.json</ProjectItem>
 		<ProjectItem>Index.cshtml</ProjectItem>
-		<ProjectItem>index.html</ProjectItem>
+		<!--<ProjectItem>index.html</ProjectItem>-->
 		<ProjectItem>MyApp.cshtml</ProjectItem>
 	</Project>
   </TemplateContent>

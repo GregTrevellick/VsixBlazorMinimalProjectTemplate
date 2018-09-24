@@ -5,6 +5,7 @@
 		<RunCommand>dotnet</RunCommand>
 		<RunArguments>blazor serve</RunArguments>
 		<LangVersion>7.3</LangVersion>
+		<EnableDefaultContentItems>false</EnableDefaultContentItems>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -16,9 +17,9 @@
 	<ItemGroup>
 		<Content Include="global.json" />
 		<Content Include="Index.cshtml" />
-		<Content Include="index.html" />
-		<Content Include="MyApp.cshtml" />
 		<Content Include="wwwroot\index.html" />
+		<Content Include="MyApp.cshtml" />
+		<!--<Content Include="index.html" />-->
 		<None Include="IndexBase.cs" />
 		<None Include="Program.cs" />
 		<None Include="Properties\launchSettings.json" />
