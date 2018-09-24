@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>BlazorMinimalProjectTemplate</Name>
-    <Description>BlazorMinimalProjectTemplate</Description>
-    <Icon>BlazorMinimalProjectTemplate.ico</Icon>
-    <ProjectType>CSharp</ProjectType>
+    <Name>Blazor Web Application (.NET Standard)</Name>
+    <Description>A minimal web application implementation of Blazor</Description>
+	  <Icon>BlazorMinimalProjectTemplate.ico</Icon>
+	  <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>4aeb7435-1b63-47de-ba40-49a13de13312</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>BlazorMinimalProjectTemplate</DefaultName>
+    <DefaultName>BlazorMinimal</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>

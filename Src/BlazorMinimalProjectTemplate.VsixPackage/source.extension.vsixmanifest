@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="3a088972-02e1-474b-8c2b-6bd9833e1774" Version="1.0" Language="en-US" Publisher="Greg Trevellick" />
-        <DisplayName>Blazor template</DisplayName>
-        <Description xml:space="preserve">Blazor template Empty VSIX Project.</Description>
-        <MoreInfo>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate</MoreInfo>
-        <License>LICENSE.txt</License>
-        <GettingStartedGuide>https://docs.microsoft.com/en-us/vsts/extend/?view=vsts</GettingStartedGuide>
-        <ReleaseNotes>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
-        <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
-        <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
-    </Installation>
-    <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="BlazorMinimalProjectTemplate" d:TargetPath="|BlazorMinimalProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" TargetVersion="[15.0,16.0)" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-    </Prerequisites>
+	<Metadata>
+		<Identity Id="3a088972-02e1-474b-8c2b-6bd9833e1774" Version="1.0.1" Language="en-US" Publisher="Greg Trevellick" />
+		<DisplayName>Blazor template</DisplayName>
+		<Description xml:space="preserve">Blazor template Empty VSIX Project.</Description>
+		<MoreInfo>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate</MoreInfo>
+		<License>LICENSE.txt</License>
+		<GettingStartedGuide>https://docs.microsoft.com/en-us/vsts/extend/?view=vsts</GettingStartedGuide>
+		<ReleaseNotes>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
+		<Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
+		<PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+	</Dependencies>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="BlazorMinimalProjectTemplate" d:TargetPath="|BlazorMinimalProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" TargetVersion="[15.0,16.0)" />
+	</Assets>
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+	</Prerequisites>
 </PackageManifest>
