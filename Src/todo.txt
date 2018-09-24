@@ -1,5 +1,9 @@
 remove choice of 4.6.1
-ico/logo
+screen shots
+vsix upload
+readme
+notes/"how to" stand alone deploy
+
 
 
 
