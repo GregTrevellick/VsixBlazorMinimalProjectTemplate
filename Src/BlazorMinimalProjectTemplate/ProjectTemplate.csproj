@@ -14,7 +14,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Compile Include="Properties\AssemblyInfo.cs" />
 		<Content Include="global.json" />
 		<Content Include="Index.cshtml" />
 		<Content Include="index.html" />

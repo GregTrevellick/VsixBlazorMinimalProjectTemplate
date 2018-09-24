@@ -64,7 +64,6 @@
     <None Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AssemblyInfo.cs" />
     <Content Include="global.json" />
     <Content Include="Index.cshtml" />
     <Content Include="MyApp.cshtml" />

@@ -14,7 +14,6 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-		<ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
 		<ProjectItem ReplaceParameters="true" TargetFileName="Properties\launchSettings.json">Properties\launchSettings.json</ProjectItem>
 		<ProjectItem ReplaceParameters="true">IndexBase.cs</ProjectItem>
 		<ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
