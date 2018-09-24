@@ -60,6 +60,7 @@
     <None Include="IndexBase.cs" />
     <None Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Properties\launchSettings.json" />
     <None Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,7 +74,9 @@
     <None Include="BlazorMinimalProjectTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="BlazorMinimalProjectTemplate.vstemplate" />
+    <VSTemplate Include="BlazorMinimalProjectTemplate.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
