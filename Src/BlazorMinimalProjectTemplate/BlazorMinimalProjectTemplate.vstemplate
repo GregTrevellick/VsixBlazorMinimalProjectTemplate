@@ -5,7 +5,7 @@
     <Description>A minimal web application implementation of Blazor</Description>
 	  <Icon>BlazorMinimalProjectTemplate.ico</Icon>
 	  <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>netstandard2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>4aeb7435-1b63-47de-ba40-49a13de13312</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>

@@ -1,5 +1,3 @@
-remove choice of 4.6.1
-
 vsix screen shots
 vsix upload
 vsix readme
