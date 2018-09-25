@@ -5,38 +5,38 @@
 <div style="font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif">
 
     @functions {
-    string hello
-    {
-        get
+        string title
         {
-            return "Hello Experimental Blazor World";
+            get
+            {
+                return "Blazor Minimal";
+            }
         }
     }
-    }
 
-    <h1>@hello @now</h1>
+    <h2>@title</h2>
+
+    @inlineCsharp
 
     @functions {
-    string now
-    {
-        get
+        string inlineCsharp
         {
-            return $"at {DateTime.Now.ToLongDateString()} on {DateTime.Now.ToLongTimeString()}";
+            get
+            {
+                return "The source for this text was inline C# code in a .CSHTML file";
+            }
         }
-    }
     }
 
     <p />
     <strong>@GetTextFromMethodInClass()</strong>
-
-    <p />For more advanced Blazor templates see <a href="https://marketplace.visualstudio.com/items?itemName=aspnet.blazor" target="_blank">ASP.NET Core Blazor Language Services</a>.
 
     <p /><a href="https://blazor.net/docs/get-started.html" target="_blank">Get started</a>
 
     <p />
     <div style="color: #31708f; background-color: #d9edf7; border-color: #bce8f1; padding: 15px; border: 1px solid transparent; border-radius: 4px;">
         <strong>NOTE</strong>
-        <p />Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018) 
+        <p />Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018)
         <p /><a href="https://blazor.net/index.html" target="_blank">More info</a>
     </div>
 

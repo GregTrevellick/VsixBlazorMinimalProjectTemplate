@@ -11,6 +11,8 @@
 
 A minimal .Net Standard implementation of [Blazor](https://blazor.net/).
 
+For more advanced Blazor templates see [ASP.NET Core Blazor Language Services](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor).
+
 <!--
 https://blazor.net/docs/get-started.html
 

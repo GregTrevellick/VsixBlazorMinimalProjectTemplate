@@ -6,7 +6,7 @@ namespace $safeprojectname$
     {
         public string GetTextFromMethodInClass()
         {
-            return "This text came from a .cs file.";
-        }
+            return "The source for this text was external C# code in a .CS file";
     }
+}
 }
