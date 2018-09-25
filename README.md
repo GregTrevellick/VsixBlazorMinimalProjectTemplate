@@ -13,10 +13,39 @@ A minimal .Net Standard implementation of [Blazor](https://blazor.net/).
 
 For more advanced Blazor templates see [ASP.NET Core Blazor Language Services](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor).
 
-<!--
-https://blazor.net/docs/get-started.html
 
-https://msdn.microsoft.com/magazine/mt829752?MC=MSAzure&MC=DevOps&MC=Vstudio&MC=Testing&MC=CSHARP&f=255&MSPPError=-2147217396
+<!--VSMM readme start-->
 
-https://marketplace.visualstudio.com/items?itemName=aspnet.blazor
--->
+[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/pulls
+
+A Visual Studio project template for Visual Studio Team Services dashboard widgets.
+
+If you like this **free** extension please take just a few seconds to give it a rating.
+
+Contributions welcome [here][GitHubRepoPullRequestsURL].
+
+When you create a new project...
+
+![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen0.png?raw=true)
+
+...here's what you get:
+
+![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen1.png?raw=true)
+
+<!--VSMM readme end-->
+
+
+
+See the [change log](CHANGELOG.md) for release history.
+
+## Credits
+
+[xxxxx](https://msdn.microsoft.com/magazine/mt829752?MC=MSAzure&MC=DevOps&MC=Vstudio&MC=Testing&MC=CSHARP&f=255&MSPPError=-2147217396)
+
+[rrrrr](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor)
+
+## License
+
+Software License is available [here](/LICENSE.txt).
+
+[Charity ware][CharityWareURL].
