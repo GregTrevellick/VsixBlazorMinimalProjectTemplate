@@ -15,7 +15,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             }
         },
-        "HelloWorldBlazor": {
+        "BlazorMinimalProjectTemplate": {
             "commandName": "Project",
             "launchBrowser": true,
             "environmentVariables": {

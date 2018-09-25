@@ -59,13 +59,18 @@
   <ItemGroup>
     <Content Include="..\..\LICENSE.txt">
       <Link>LICENSE.txt</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Properties\project-icon.png" />
     <Content Include="Resources\screen0.png" />
     <Content Include="Resources\screen1.png" />
     <Content Include="Resources\screen2.png" />
-    <Content Include="Resources\VsixExtensionPreview_175x175.png" />
-    <Content Include="Resources\VsixExtensionPreview_90x90.png" />
+    <Content Include="Resources\VsixExtensionPreview_175x175.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Resources\VsixExtensionPreview_90x90.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="template.pkgdef">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

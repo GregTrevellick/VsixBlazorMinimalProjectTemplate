@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Blazor.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BlazorMinimalProjectTemplate
+namespace $safeprojectname$
 {
     public class Startup
     {

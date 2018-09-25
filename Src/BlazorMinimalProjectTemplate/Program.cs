@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace BlazorMinimalProjectTemplate
+namespace $safeprojectname$
 {
     public class Program
     {
