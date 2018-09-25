@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Blazor.Components;
 
-namespace $safeprojectname$
+namespace BlazorMinimalProjectTemplate
 {
     public class IndexBase : BlazorComponent
     {
         public string GetTextFromMethodInClass()
         {
-            return "The source for this text was external C# code in a .CS file";
+            return "This text came from a .cs file. You can also use C# files in other assemblies, and Blazor supports much Razor syntax, routing and more - see the blazor.net website for more details.";
+        }
     }
-}
 }

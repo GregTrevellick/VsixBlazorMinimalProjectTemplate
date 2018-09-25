@@ -44,6 +44,18 @@ See the [change log](CHANGELOG.md) for release history.
 
 [rrrrr](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor)
 
+[rrrrr](https://www.youtube.com/watch?v=g6az_N95dVM&feature=youtu.be)
+
+[rrrrr](https://github.com/dotnet/templating/issues/1209)
+
+[rrrrr](https://github.com/madskristensen/TemplateCreator)
+
+[rrrrr](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/)
+
+[rrrrr](https://github.com/dotnet/templating/wiki)
+
+[rrrrr](https://github.com/ligershark/sidewafflev2/issues/31)
+
 ## License
 
 Software License is available [here](/LICENSE.txt).

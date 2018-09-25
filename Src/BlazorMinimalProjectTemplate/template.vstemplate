@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Blazor Web Application (.NET Standard)</Name>
+    <Name>Blazor Web Application (.NET Standard) bb</Name>
     <Description>A minimal web application implementation of Blazor</Description>
 	  <Icon>BlazorMinimalProjectTemplate.ico</Icon>
 	  <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>netstandard2.0</RequiredFrameworkVersion>
+    <!--<RequiredFrameworkVersion>netstandard2.0</RequiredFrameworkVersion>-->
     <SortOrder>1000</SortOrder>
-    <TemplateID>4aeb7435-1b63-47de-ba40-49a13de13312</TemplateID>
+    <TemplateID>C9412ED6-D429-4E4A-9585-41B221E820CD</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>BlazorMinimal</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
+	  <!--<ProjectCollection/>-->
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
 		<ProjectItem ReplaceParameters="true" TargetFileName="Properties\launchSettings.json">Properties\launchSettings.json</ProjectItem>
 		<ProjectItem ReplaceParameters="true">IndexBase.cs</ProjectItem>
@@ -23,5 +24,9 @@
 		<ProjectItem>Index.cshtml</ProjectItem>
 		<ProjectItem>MyApp.cshtml</ProjectItem>
 	</Project>
+	<CustomParameters>
+	  <CustomParameter Name = "$groupid$" Value="BlazorMinimalProjectTemplate"/>
+	  <CustomParameter Name = "SideWaffleNewProjNode" Value="CSharp\Demo"/>
+	</CustomParameters>
   </TemplateContent>
 </VSTemplate>
