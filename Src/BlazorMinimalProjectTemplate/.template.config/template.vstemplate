@@ -2,13 +2,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
     <Name>Blazor Web Application (.NET Standard)</Name>
-    <Description>A minimal web application implementation of Blazor</Description>
+    <Description>A minimal web application implementation of Blazor.</Description>
     <TemplateID>Blazor.Minimal.CSharp</TemplateID>
     <DefaultName>BlazorMinimalProject</DefaultName>
 
-    <Icon>project-icon.png</Icon>
-    
-    <ProjectType>CSharp</ProjectType>
+	  <Icon>project-icon.png</Icon>
+
+	  <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <SortOrder>5000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
