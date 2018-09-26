@@ -62,6 +62,7 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Properties\project-icon.png" />
+    <Content Include="Resources\BlazorMinimalProjectTemplate.ico" />
     <Content Include="Resources\screen0.png" />
     <Content Include="Resources\screen1.png" />
     <Content Include="Resources\screen2.png" />
