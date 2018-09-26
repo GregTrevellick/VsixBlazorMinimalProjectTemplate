@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="675F5946-4A8F-401D-BF39-20F304EBD3E7" Version="1.0" Language="en-US" Publisher="Greg Trevellick" />
-        <DisplayName>Blazor template 2</DisplayName>
-        <Description xml:space="preserve">Blazor template Empty VSIX Project 2</Description>
-        <MoreInfo>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate</MoreInfo>
+        <Identity Id="675F5946-4A8F-401D-BF39-20F304EBD3E7" Version="1.0.0" Language="en-US" Publisher="Greg Trevellick" />
+        <DisplayName>Blazor Minimal Project Template</DisplayName>
+        <Description xml:space="preserve">A project template for a web application with a minimal implementation of Blazor (C# in the browser).</Description>
+        <MoreInfo>https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate</MoreInfo>
         <License>LICENSE.txt</License>
-        <GettingStartedGuide>https://docs.microsoft.com/en-us/vsts/extend/?view=vsts</GettingStartedGuide>
-        <ReleaseNotes>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
+        <GettingStartedGuide>https://blazor.net/docs/get-started.html</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
         <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
+        <Tags>blazor, razor, wasm, web assembly</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
