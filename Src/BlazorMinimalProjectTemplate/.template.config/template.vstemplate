@@ -1,8 +1,8 @@
 
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
-    <Name>Blazor Web Application (.NET Standard) .vst</Name>
-    <Description>A minimal web application implementation of Blazor .vst</Description>
+    <Name>Blazor Web Application (.NET Standard)</Name>
+    <Description>A minimal web application implementation of Blazor</Description>
     <TemplateID>Blazor.Minimal.CSharp</TemplateID>
     <DefaultName>BlazorMinimalProject</DefaultName>
 
@@ -22,7 +22,7 @@
       <CustomParameter Name = "$language$" Value="CSharp" />
       <CustomParameter Name = "$uistyle$" Value="none"/>
       <CustomParameter Name = "$groupid$" Value="Blazor.Minimal" />
-      <CustomParameter Name = "SideWaffleNewProjNode" Value="CSharp\Gregt"/>
+      <CustomParameter Name = "SideWaffleNewProjNode" Value="CSharp\Web"/>
     </CustomParameters>
   </TemplateContent>
   <WizardExtension>

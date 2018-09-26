@@ -3,7 +3,7 @@
   "classifications": [],
   "description": "template description",
   "name": "Blazor minimal project",
-  "defaultName": "BlazorMinimalProject",
+  "defaultName": "BlazorMinimal",
   "identity": "Blazor.Minimal.CSharp",
   "groupIdentity": "Blazor.Minimal",
   "tags": {
