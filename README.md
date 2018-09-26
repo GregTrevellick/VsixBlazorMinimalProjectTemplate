@@ -6,6 +6,12 @@
 
 <!--BadgesEND-->
 
+<div style="color: #31708f; background-color: #d9edf7; border-color: #bce8f1; padding: 15px; border: 1px solid transparent; border-radius: 4px;">
+        <strong>NOTE</strong>
+        <p></p>Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018)
+        <p></p><a href="https://blazor.net/" target="_blank">More info</a>
+</div>
+
 
 <!--VSMM readme start-->
 
@@ -19,9 +25,13 @@ When you create a new project...
 
 ![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen0.png?raw=true)
 
-...here's what you get:
+...here's what you get...
 
 ![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen1.png?raw=true)
+
+...which you can build / run to get this:
+
+![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen2.png?raw=true)
 
 <!--VSMM readme end-->
 
