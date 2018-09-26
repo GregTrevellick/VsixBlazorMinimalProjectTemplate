@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Components;
 
-namespace $safeprojectname$
+namespace BlazorMinimalProjectTemplate
 {
     public class IndexBase : BlazorComponent
     {

@@ -1,13 +1,21 @@
 {
   "author": "Me",
   "classifications": [],
-  "description": "",
-  "name": "BlazorMinimalProjectTemplate",
-  "defaultName": "BlazorMinimalProjectTemplate",
-  "identity": "",
-  "groupIdentity": "",
-  "tags": {},
-  "shortName": "BlazorMinimalProjectTemplate",
+  "description": "template description",
+  "name": "Blazor minimal project",
+  "defaultName": "BlazorMinimalProject",
+  "identity": "Blazor.Minimal.CSharp",
+  "groupIdentity": "Blazor.Minimal",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "blazormin",
   "sourceName": "BlazorMinimalProjectTemplate",
-  "guids": []
+  "guids": [],
+  "primaryOutputs": [
+    {
+      "path": "BlazorMinimalProjectTemplate.csproj"
+    }
+  ]
 }
