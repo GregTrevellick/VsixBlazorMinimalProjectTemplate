@@ -1,5 +1,4 @@
-vsix screen shots
 vsix upload
-vsix readme
+
 vsix notes/"how to" stand alone deploy
 
