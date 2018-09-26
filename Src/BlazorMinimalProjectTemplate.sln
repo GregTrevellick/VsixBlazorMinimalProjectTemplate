@@ -8,8 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DB6DE27-9FBB-4D14-BDA5-145E81CB304A}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		..\appveyor.yml = ..\appveyor.yml
+		..\CHANGELOG.md = ..\CHANGELOG.md
 		..\LICENSE.txt = ..\LICENSE.txt
 		..\README.md = ..\README.md
+		..\renovate.json = ..\renovate.json
+		todo.txt = todo.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMinimalProjectTemplate.TemplatePackSideWaffle", "BlazorMinimalProjectTemplate.TemplatePackSideWaffle\BlazorMinimalProjectTemplate.TemplatePackSideWaffle.csproj", "{DEBB1F37-619D-45EC-8B36-9FD4322BE07A}"
