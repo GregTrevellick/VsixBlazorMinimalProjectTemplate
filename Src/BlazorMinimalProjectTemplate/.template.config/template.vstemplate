@@ -2,7 +2,7 @@
 	<TemplateData>
 		<Name>Blazor Web Application (.NET Standard)</Name>
 		<Description>A minimal web application implementation of Blazor.</Description>
-		<TemplateID>BFEAB829-41E0-497A-AD05-41BF7FC13230</TemplateID>
+		<TemplateID>Blazor.Minimal.CSharp</TemplateID>
 		<DefaultName>BlazorMinimal</DefaultName>
 		<Icon>project-icon.png</Icon>
 		<ProjectType>CSharp</ProjectType>
