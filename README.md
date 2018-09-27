@@ -1,5 +1,3 @@
-[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/pulls
-
 # Blazor Minimal Project Template
 
 <!--BadgesSTART-->
@@ -10,13 +8,13 @@
 
 <!--VSMM readme start-->
 
+[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/pulls
+
 A Visual Studio IDE extension providing users with a project template for a .Net Standard project with a minimal implementation of [Blazor](https://blazor.net/) (an experimental web UI framework based on C#, Razor, and HTML that runs in the browser via WebAssembly).
 
 > **NOTE**
 > 
 >Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018)
->
->[More info](https://blazor.net/)
 
 When you create a new project...
 
@@ -28,9 +26,7 @@ When you create a new project...
 
 ...which you can build / run to get this:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen2.png?raw=true)
-
-<!--VSMM readme end-->
+![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen2.png?raw=true)
 
 More advanced Visual Studio Blazor project templates are available [here](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor).
 
@@ -39,6 +35,8 @@ If you like this **free** extension please take just a few seconds to give it a 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
 
 See the [change log](CHANGELOG.md) for release history.
+
+<!--VSMM readme end-->
 
 ## Credits
 
