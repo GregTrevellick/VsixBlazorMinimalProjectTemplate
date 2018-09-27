@@ -54,7 +54,7 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="templates\templatepack.BlazorMinimalProjectTemplate.TemplatePackSideWaffle.proj" />
+    <None Include="template\templatepack.BlazorMinimalProjectTemplate.TemplatePackSideWaffle.proj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\LICENSE.txt">
