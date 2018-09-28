@@ -29,10 +29,10 @@
 [![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 
-[![Visual Studio Marketplace version](https://img.shields.io/badge/-VsixBlazorMinimalProjectTemplate-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixBlazorMinimalProjectTemplate)
-[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.VsixBlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixBlazorMinimalProjectTemplate)
-[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.VsixBlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixBlazorMinimalProjectTemplate)
-[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.VsixBlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VsixBlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace version](https://img.shields.io/badge/-BlazorMinimalProjectTemplate-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.BlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.BlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.BlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
 
 
 <!--BadgesEND-->
