@@ -6,10 +6,10 @@ environment:
 install:
     - choco install "sonarscanner-msbuild-net46" -y
 before_build:
-    - cmd: nuget restore Src/VsixBlazorMinimalProjectTemplate.sln
-    - SonarScanner.MSBuild.exe begin /k:"VsixBlazorMinimalProjectTemplate" /d:"sonar.host.url=https://sonarqube.com" /d:"sonar.login=%my_encrypted_sonarqube_token%" /d:"sonar.organization=gregtrevellick-github"
+    - cmd: nuget restore Src/BlazorMinimalProjectTemplate.sln
+    - SonarScanner.MSBuild.exe begin /k:"BlazorMinimalProjectTemplate" /d:"sonar.host.url=https://sonarqube.com" /d:"sonar.login=%my_encrypted_sonarqube_token%" /d:"sonar.organization=gregtrevellick-github"
 build:
-    project: Src/VsixBlazorMinimalProjectTemplate.sln
+    project: Src/BlazorMinimalProjectTemplate.sln
     verbosity: minimal
 after_build:
     - SonarScanner.MSBuild.exe end /d:"sonar.login=%my_encrypted_sonarqube_token%"
