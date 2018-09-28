@@ -1,4 +1,0 @@
-vsix upload
-
-vsix notes/"how to" stand alone deploy
-
