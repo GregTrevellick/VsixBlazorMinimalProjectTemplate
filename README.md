@@ -57,7 +57,7 @@ When you create a new project...
 
 ![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen1.png?raw=true)
 
-...which you can build / run to get this:
+...which you can F5 build / run to get this:
 
 ![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen2.png?raw=true)
 
