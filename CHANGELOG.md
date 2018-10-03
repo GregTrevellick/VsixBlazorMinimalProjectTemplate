@@ -9,3 +9,7 @@ Individual releases are tagged as such in GitHub.
 ## 1.0.4
 **2018-09-30**
 - [x] Initial release
+
+## 1.0.5
+**2018-10-03**
+- [x] Update to Blazor v0.6.0
