@@ -85,6 +85,10 @@ See the [change log](CHANGELOG.md) for release history.
 
 [Microsoft DevLabs](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor)
 
+[Peter Vogel](https://visualstudiomagazine.com/articles/2018/09/01/integrating-javascript-csharp.aspx?platform=hootsuite&m=1)
+
+[Rick Strahl](https://weblog.west-wind.com/posts/2018/Jul/31/Web-Assembly-and-Blazor-Reassembling-the-Web)
+
 [Sayed Hashimi](https://www.youtube.com/watch?v=g6az_N95dVM&feature=youtu.be)
 
 [Sayed Ibrahim Hashimi](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/)
