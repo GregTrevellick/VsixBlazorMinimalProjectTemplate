@@ -10,7 +10,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/40dfe21f31da4c15b679bb586776a9b3)](https://www.codacy.com/project/gtrevellick/VsixBlazorMinimalProjectTemplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/VsixBlazorMinimalProjectTemplate&amp;utm_campaign=Badge_Grade_Dashboard)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/VsixBlazorMinimalProjectTemplate/badge)](https://www.codefactor.io/repository/github/GregTrevellick/VsixBlazorMinimalProjectTemplate)
-[![Inspecode Report](https://inspecode.rocro.com/badges/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/report?token=kEFMGhJTLhNvwwmZKiXB72Z8IkXY1FFBb0enecLrGDg)](https://inspecode.rocro.com/reports/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/branch/master/summary)
+[![DepShield](https://depshield.sonatype.org/badges/GregTrevellick/VsixBlazorMinimalProjectTemplate/depshield.svg)](https://depshield.github.io)
+[![InspecodeRocro Report](https://inspecode.rocro.com/badges/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/report?token=kEFMGhJTLhNvwwmZKiXB72Z8IkXY1FFBb0enecLrGDg)](https://inspecode.rocro.com/reports/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/branch/master/summary)
 [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixBlazorMinimalProjectTemplate/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixBlazorMinimalProjectTemplate/context:javascript)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate)
@@ -31,7 +32,7 @@
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/kje6fcd2r5ng44p1?svg=true)](https://ci.appveyor.com/project/GregTrevellick/VsixBlazorMinimalProjectTemplate)
 [![Appveyor unit tests](https://img.shields.io/appveyor/tests/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://ci.appveyor.com/project/GregTrevellick/VsixBlazorMinimalProjectTemplate/build/tests)
 [![Azure Build Status](https://gregtrevellick.visualstudio.com/VsixBlazorMinimalProjectTemplate/_apis/build/status/VsixBlazorMinimalProjectTemplate)](https://gregtrevellick.visualstudio.com/VsixBlazorMinimalProjectTemplate/_build/latest?definitionId=5)
-[![Inspecode Job Status](https://inspecode.rocro.com/badges/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/status?token=kEFMGhJTLhNvwwmZKiXB72Z8IkXY1FFBb0enecLrGDg)](https://inspecode.rocro.com/jobs/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/latest?completed=true)
+[![InspecodeRocro Job Status](https://inspecode.rocro.com/badges/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/status?token=kEFMGhJTLhNvwwmZKiXB72Z8IkXY1FFBb0enecLrGDg)](https://inspecode.rocro.com/jobs/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/latest?completed=true)
 [![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
 [![Access Lint github](https://img.shields.io/badge/a11y-checked-brightgreen.svg)](https://www.accesslint.com)
 [![ImgBot](https://img.shields.io/badge/images-optimized-brightgreen.svg)](https://imgbot.net/)
