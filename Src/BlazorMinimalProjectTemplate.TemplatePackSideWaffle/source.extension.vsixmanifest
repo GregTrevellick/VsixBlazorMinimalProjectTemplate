@@ -10,7 +10,7 @@
         <ReleaseNotes>https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
         <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
-        <Tags>blazor, razor, wasm, web assembly, template</Tags>
+        <Tags>blazor; razor; wasm; web assembly; template; C#; C sharp;</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
