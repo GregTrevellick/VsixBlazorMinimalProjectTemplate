@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\LICENSE.txt = ..\LICENSE.txt
 		..\README.md = ..\README.md
 		..\renovate.json = ..\renovate.json
+		VsmpPublish.txt = VsmpPublish.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMinimalProjectTemplate.TemplatePackSideWaffle", "BlazorMinimalProjectTemplate.TemplatePackSideWaffle\BlazorMinimalProjectTemplate.TemplatePackSideWaffle.csproj", "{DEBB1F37-619D-45EC-8B36-9FD4322BE07A}"
