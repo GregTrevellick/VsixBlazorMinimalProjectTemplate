@@ -108,3 +108,7 @@ See the [change log](CHANGELOG.md) for release history.
 Software License is available [here](/LICENSE.txt).
 
 [Charity ware][CharityWareURL].
+
+## Hint
+
+[ASP.NET Core 2.1.1 fails with HTTP Error 502.5 - Process Failure](https://github.com/aspnet/IISIntegration/issues/945#issuecomment-421396454)
