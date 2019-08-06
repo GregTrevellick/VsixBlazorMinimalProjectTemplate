@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Blazor.Components;
+﻿using Microsoft.AspNetCore.Components;
 
 namespace BlazorMinimalProjectTemplate
 {
-    public class IndexBase : BlazorComponent
+    public class IndexBase : ComponentBase 
     {
         public string GetTextFromMethodInClass()
         {

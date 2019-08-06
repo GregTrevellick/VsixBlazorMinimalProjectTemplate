@@ -1,0 +1,49 @@
+﻿@page "/"
+ 
+@inherits BlazorMinimalProjectTemplate.IndexBase
+
+    <div style="font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif">
+
+        @functions {
+            string title
+            {
+                get
+                {
+                    return "Blazor Minimal";
+                }
+            }
+        }
+
+        <h2>@title</h2>
+
+        @inlineCsharp
+
+        @functions {
+            string inlineCsharp
+            {
+                get
+                {
+                    return "The source for this text was inline C# code in a .CSHTML file";
+                }
+            }
+        }
+
+        <p />
+
+        <h1>@GetTextFromMethodInClass()</h1>
+
+        <p />
+        <div style="color: #31708f; background-color: #d9edf7; border-color: #bce8f1; padding: 15px; border: 1px solid transparent; border-radius: 4px;">
+            <strong>APRIL 2019 NOTE</strong>
+            <p />Blazor is no longer experimental
+            <p /><a href="https://devblogs.microsoft.com/aspnet/blazor-now-in-official-preview/" target="_blank">Read the announcement post</a>
+        </div>
+
+        <p />
+        <div style="color: #31708f; background-color: #d9edf7; border-color: #bce8f1; padding: 15px; border: 1px solid transparent; border-radius: 4px;">
+            <strong>SEPTEMBER 2018 NOTE</strong>
+            <p />Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018)
+            <p /><a href="https://blazor.net/docs/get-started.html" target="_blank">Get started</a>
+        </div>
+
+    </div>
