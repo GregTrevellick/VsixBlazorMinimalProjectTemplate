@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Blazor.Builder;
+using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BlazorMinimalProjectTemplate
@@ -9,9 +9,9 @@ namespace BlazorMinimalProjectTemplate
         {
         }
 
-        public void Configure(IBlazorApplicationBuilder blazorApplicationBuilder)
+        public void Configure(IComponentsApplicationBuilder componentsApplicationBuilder)
         {
-            blazorApplicationBuilder.AddComponent<MyApp>("myApp");
+            componentsApplicationBuilder.AddComponent<MyApp>("myApp");
         }
     }
 }
