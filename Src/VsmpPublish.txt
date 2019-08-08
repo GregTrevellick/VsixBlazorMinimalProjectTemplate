@@ -1,9 +1,16 @@
-manual upload
+1) build entire solution
 
+2) set BlazorMinimalProjectTemplate.csproj as start up, F5 & test
 
-vs2019
-======
-1) delete         <Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" d:Source="Installed" Version="[15.0]" />
-2)         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-                    ==>
-		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+3) change version number in C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\source.extension.vsixmanifest & rebuild
+
+4a) double click C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\bin\Debug\BlazorMinimalProjectTemplate.TemplatePackSideWaffle.vsix to install it in VS2019
+4b) test the new template in VS2019
+  OR 
+5a) set BlazorMinimalProjectTemplate.TemplatePackSideWaffle as start up, F5 & test
+5b) test the new template in VS2019
+
+6) update the "vsmm" section of ReadMe.md including screenshots in C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\Resources\
+
+7a) manually upload C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\bin\Debug\BlazorMinimalProjectTemplate.TemplatePackSideWaffle.vsix to microsoft
+7b) manually upload the "vsmm" section of ReadMe.md to microsoft

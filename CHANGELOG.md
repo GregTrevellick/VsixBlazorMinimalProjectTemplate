@@ -17,3 +17,7 @@ Individual releases are tagged as such in GitHub.
 ## 1.0.6
 **2018-12-05**
 - [x] Update to Blazor v0.7.0
+
+## 1.0.10
+**2019-08-08**
+- [x] Update to Blazor 3.0.0-preview7.19365.7

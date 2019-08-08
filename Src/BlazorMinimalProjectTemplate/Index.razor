@@ -1,0 +1,38 @@
+﻿@page "/"
+
+@inherits BlazorMinimalProjectTemplate.IndexBase
+
+    <div style="font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif">
+
+        @code
+        {
+            string title => "Blazor Minimal";     
+        }
+
+        <h2>@title</h2>
+
+        @inlineCsharp
+
+        @code
+        {
+            string inlineCsharp
+            {
+                get
+                {
+                    return "The source for this text was inline C# code in a .razor file";
+                }
+            }
+        }
+
+        <p />
+        @GetTextFromMethodInClass()
+
+        <p />
+        <div style="color: #31708f; background-color: #d9edf7; border-color: #bce8f1; padding: 15px; border: 1px solid transparent; border-radius: 4px;">
+            <strong>APRIL 2019 NOTE</strong>
+            <p />Blazor is no longer experimental - <a href="https://devblogs.microsoft.com/aspnet/blazor-now-in-official-preview/" target="_blank">read the announcement post</a>
+            <p />
+            <a href="https://blazor.net/docs/get-started.html" target="_blank">Get started</a>
+        </div>
+
+    </div>

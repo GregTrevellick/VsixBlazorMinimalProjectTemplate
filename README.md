@@ -53,11 +53,11 @@
 
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/pulls
 
-A Visual Studio IDE extension providing users with a project template for a .Net Standard project with a minimal implementation of [Blazor](https://blazor.net/) (an experimental web UI framework based on C#, Razor, and HTML that runs in the browser via WebAssembly).
+A Visual Studio IDE extension providing users with a project template for a .Net Standard project with a minimal implementation of [Blazor](https://blazor.net/) (a web UI framework based on C#, Razor, and HTML that runs in the browser via WebAssembly).
 
 > **NOTE**
 > 
->Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018)
+>As of April 2019 Blazor is no longer experimental - [read the announcement post](https://devblogs.microsoft.com/aspnet/blazor-now-in-official-preview)
 
 When you create a new project...
 
