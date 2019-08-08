@@ -10,4 +10,7 @@
 5a) set BlazorMinimalProjectTemplate.TemplatePackSideWaffle as start up, F5 & test
 5b) test the new template in VS2019
 
-6) manually upload C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\bin\Debug\BlazorMinimalProjectTemplate.TemplatePackSideWaffle.vsix to microsoft
+6) update the "vsmm" section of ReadMe.md including screenshots in C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\Resources\
+
+7a) manually upload C:\_git\VsixBlazorMinimalProjectTemplate\Src\BlazorMinimalProjectTemplate.TemplatePackSideWaffle\bin\Debug\BlazorMinimalProjectTemplate.TemplatePackSideWaffle.vsix to microsoft
+7b) manually upload the "vsmm" section of ReadMe.md to microsoft
