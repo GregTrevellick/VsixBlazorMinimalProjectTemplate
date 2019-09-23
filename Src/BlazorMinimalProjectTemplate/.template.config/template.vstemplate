@@ -1,6 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
 	<TemplateData>
-		<Name>Blazor Web Application (.NET Standard)</Name>
+		<Name>Blazor Client-Side Minimal Web Application (.NET Standard)</Name>
 		<Description>A minimal web application implementation of Blazor.</Description>
 		<TemplateID>Blazor.Minimal.CSharp</TemplateID>
 		<DefaultName>BlazorMinimal</DefaultName>

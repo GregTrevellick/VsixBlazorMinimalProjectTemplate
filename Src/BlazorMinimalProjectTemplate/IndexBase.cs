@@ -2,7 +2,7 @@
 
 namespace BlazorMinimalProjectTemplate
 {
-    public class IndexBase : ComponentBase
+    public class IndexBase : LayoutComponentBase
     {
         public string GetTextFromMethodInClass()
         {
