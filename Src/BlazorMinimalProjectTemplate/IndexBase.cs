@@ -6,7 +6,7 @@ namespace BlazorMinimalProjectTemplate
     {
         public string GetTextFromMethodInClass()
         {
-            return "The source for this text was external C# code in a .cs file";
+            return "This text is derived from a C# .cs file within the assembly";
         }
     }
 }
