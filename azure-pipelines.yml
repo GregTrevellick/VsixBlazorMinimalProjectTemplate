@@ -47,7 +47,7 @@ steps:
     zipAfterPublish: True
 
 
-- task: PublishBuildArtifacts@1
+- task: PublishBuildArtifacts@1.200.0
   displayName: 'Publish Artifact'
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
