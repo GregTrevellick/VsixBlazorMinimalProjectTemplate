@@ -9,7 +9,7 @@ queue:
 #Your build pipeline references the ‘BuildConfiguration’ variable, which you’ve selected to be settable at queue time. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it settable at queue time. See https://go.microsoft.com/fwlink/?linkid=865971
 #Your build pipeline references the ‘BuildConfiguration’ variable, which you’ve selected to be settable at queue time. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it settable at queue time. See https://go.microsoft.com/fwlink/?linkid=865971
 steps:
-- task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2.210.0
   displayName: Restore
   inputs:
     command: restore
@@ -17,7 +17,7 @@ steps:
     projects: '$(Parameters.RestoreBuildProjects)'
 
 
-- task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2.210.0
   displayName: Build
   inputs:
     projects: '$(Parameters.RestoreBuildProjects)'
@@ -25,7 +25,7 @@ steps:
     arguments: '--configuration $(BuildConfiguration)'
 
 
-- task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2.210.0
   displayName: Test
   inputs:
     command: test
@@ -35,7 +35,7 @@ steps:
     arguments: '--configuration $(BuildConfiguration)'
 
 
-- task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2.210.0
   displayName: Publish
   inputs:
     command: publish
